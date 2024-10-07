@@ -64,7 +64,6 @@ myName = 'Panciroli'
 console.log('Il mio cognome è', myName)
 //const myName = 'Panciroli'
 
-
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
@@ -84,10 +83,19 @@ console.log('Il risultato di X - 4 è', sottraction)
 
 let name1 = 'john'
 let name2 = 'John'
-const boolean1 = 'john' !== 'John'
-console.log('boolean1', boolean1)
+//const boolean1 = 'john' !== 'John'
+//console.log('boolean1', boolean1)
+
+//CORREZIONE
+//AL POSTO DI CONST BOOLEAN
+let result = name1 === name2 // false
+console.log('Il risultato dell uguaglianza è', result)
 
 //EXTRA
-let lowercase = 'John'.toLowerCase
-const boolean2 = name1 === name2
-console.log('boolean2', boolean2)
+//let lowercase = 'John'.toLowerCase
+//const boolean2 = name1 === name2
+//console.log('boolean2', boolean2)
+
+//CORREZIONE
+let resultInLowerCase = name1.toLowerCase() === name2.toLowerCase()
+console.log('resultInLowerCase', resultInLowerCase)
