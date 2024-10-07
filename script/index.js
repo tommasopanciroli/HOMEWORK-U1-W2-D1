@@ -60,7 +60,10 @@ console.log('Il valore di x è', x)
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
+myName = 'Panciroli'
+console.log('Il mio cognome è', myName)
 //const myName = 'Panciroli'
+
 
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
